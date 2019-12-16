@@ -1,0 +1,32 @@
+@import 'font.css';
+body {
+    background: gray;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar {
+    background: #ffffff;
+    padding: 20px 0;
+    color: #212121;
+}
+
+.menu_item {
+    margin-left: 37px;
+}
+
+.menu_item a {
+    color: #212121;
+    font-size: 20px;
+    font-family: "Open Sans Smibold";
+}
+
+.menu_item a:hover {
+    text-decoration: none;
+    color: #868686;
+}
