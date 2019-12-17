@@ -108,3 +108,62 @@ li {
     font-size: 15px;
     color: #212121;
 }
+
+
+/* our services */
+
+.services {
+    padding: 165px 125px;
+    color: black;
+    background: #e4fdf9;
+    text-align: center;
+}
+
+.our_card {
+    padding: 50px 20px 40px;
+    background: white;
+    margin-bottom: 30px;
+}
+
+.our_card:hover {
+    background: #00897b;
+    color: white;
+    transition: 0.3s;
+    box-shadow: 0 10px 12px -3px rgba(0, 0, 0, 0.26);
+}
+
+.our_card:hover .icon {
+    color: white;
+    transition: 0.3s;
+}
+
+.our_card:hover .about_content {
+    color: white;
+    transition: 0.3s;
+}
+
+.our_card:hover .button_services {
+    border: 2px solid white;
+    color: white;
+    transition: 0.3s;
+}
+
+.icon {
+    transition: 0.3s;
+    font-size: 60px;
+    color: black
+}
+
+.button_services {
+    text-transform: uppercase;
+    border: 1px solid black;
+    background: transparent;
+    padding: 14px 13px 14px;
+    font-family: "Open Sans Semibold";
+    font-size: 20px;
+    color: black;
+}
+
+.button_services:hover {
+    cursor: pointer;
+}
