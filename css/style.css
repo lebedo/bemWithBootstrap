@@ -1,6 +1,6 @@
 @import 'font.css';
-body {
-    background: gray;
+section {
+    background-color: gray;
 }
 
 ul,
@@ -11,7 +11,7 @@ li {
 }
 
 .menu-bar {
-    background: #ffffff;
+    background-color: #ffffff;
     padding: 20px 0;
     color: #212121;
 }
