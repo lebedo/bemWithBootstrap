@@ -11,8 +11,6 @@ $(document).ready(function() {
             $(' .filter > div[filter="wd"]').show(300);
         }
     })
-});
-$(document).ready(function() {
     $(' .button[filter="ud"]').click(function() {
         if ($(this).attr('val') == 'off') {
             $('.button[filter]').attr('val', 'off');
@@ -25,9 +23,8 @@ $(document).ready(function() {
             $(' .filter > div').hide(300);
             $(' .filter > div[filter="ud"]').show(300);
         }
-    })
-});
-$(document).ready(function() {
+    });
+
     $(' .button[filter="moc"]').click(function() {
         if ($(this).attr('val') == 'off') {
             $('.button[filter]').attr('val', 'off');
@@ -40,9 +37,7 @@ $(document).ready(function() {
             $(' .filter > div').hide(300);
             $(' .filter > div[filter="moc"]').show(300);
         }
-    })
-});
-$(document).ready(function() {
+    });
     $('.button[filter="all"]').click(function() {
         if ($(this).attr('val') == 'off') {
             $('button[filter]').attr('val', 'off');
@@ -54,5 +49,14 @@ $(document).ready(function() {
 
             $(' .filter > div').show(300);
         }
-    })
+    });
+    $('.sl').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        arrows: false,
+        dots: true,
+        dotsClass: 'dots-style'
+    });
+
 })
