@@ -77,7 +77,12 @@ li {
 
 /* about us  */
 
-.about {
+.about,
+.services,
+.portfolio,
+.pricing,
+.team,
+.blog {
     padding: 120px 125px;
     color: black;
     background: white;
@@ -111,10 +116,7 @@ li {
 /* our services */
 
 .services {
-    padding: 165px 125px;
-    color: black;
     background: #e4fdf9;
-    text-align: center;
 }
 
 .our_card {
@@ -173,11 +175,6 @@ li {
 
 /* portfolio */
 
-.portfolio {
-    padding: 120px 135px;
-    text-align: center;
-}
-
 .portfolio button:hover,
 .focused {
     color: black;
@@ -219,10 +216,7 @@ div[filter]:hover .text {
 /* pricing */
 
 .pricing {
-    padding: 120px 125px;
-    color: black;
     background: #f0f1f1;
-    text-align: center;
 }
 
 .price {
@@ -300,10 +294,7 @@ div[filter]:hover .text {
 /* team  */
 
 .team {
-    padding: 120px 125px;
-    color: black;
     background: #ffffff;
-    text-align: center;
 }
 
 .team_name {
@@ -375,10 +366,7 @@ div[filter]:hover .text {
 /* blog */
 
 .blog {
-    padding: 120px 125px;
-    color: black;
     background: #e4fdf9;
-    text-align: center;
 }
 
 .blog_item {
@@ -559,7 +547,7 @@ div[filter]:hover .text {
     padding: 5px;
     position: fixed;
     bottom: 10px;
-    right: 10px;
+    right: 80px;
     cursor: pointer;
     display: none;
     color: #000000;
@@ -592,9 +580,6 @@ div[filter]:hover .text {
     }
     .price {
         margin: 10px;
-    }
-    .team img {
-        max-width: 640px;
     }
     .block {
         margin-top: 10px;
